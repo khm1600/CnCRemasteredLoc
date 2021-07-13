@@ -14,7 +14,7 @@ UInt32 entryTagLength; // in characters
 // entry content
 char[] entry; // UTF-16 LE
 
-// entry tags
+// entry tags (i.e. TEXT ID)
 char[] tag; // UTF-8 or ACSII, too little info to determine
 ```
 
