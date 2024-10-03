@@ -25,7 +25,7 @@ namespace CnCRemasteredLoc
 
             foreach (var item in entries)
             {
-                result.AppendLine($"\"{item.entryTag}\",\"{item.entry}\"");
+                result.AppendLine($"\"{item.entryTag}\",\"{item.entry.Replace("\"", "\"\"")}\"");
             }
             return result.ToString();
         }
