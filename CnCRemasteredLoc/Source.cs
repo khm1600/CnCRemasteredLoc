@@ -21,7 +21,7 @@ namespace CnCRemasteredLoc
             var entries = LoadFile(path);
 
             var result = new StringBuilder();
-            result.AppendLine("\"entryTag\",\"entry\"");
+            result.AppendLine("\"Text ID\",\"Text\"");
 
             foreach (var item in entries)
             {
